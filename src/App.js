@@ -1,10 +1,10 @@
-import logo from "./logo.svg";
-import "./App.css";
-
-function App() {
+import "./App.css"
+import Todos from "./Todos";
+const App = ()=>{
   return (
     <div className="App">
-      <h1 className="text-5xl font-bold text-green-500">Hello friends</h1>
+      <h2 className="text-3xl text-slate-800 font-bold">React app</h2>
+      <Todos/>    
     </div>
   );
 }
